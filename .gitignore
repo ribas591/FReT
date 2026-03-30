@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+
+# Testing
+.pytest_cache/
+
+# Linting/formatting
+.ruff_cache/
+
+# Jupyter
+examples/.ipynb_checkpoints/
+
+# IDE
+.env/
+.idea/
+.vscode/

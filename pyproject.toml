@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fret"
+version = "0.1.0"
+description = "Forecasting using Recurrent Topology"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.3,<3",
+    "scipy>=1.17.1,<2",
+    "numba>=0.64.0,<0.65",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyterlab>=4.5.6,<5",
+    "matplotlib>=3.10.8,<4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<9",
+    "ruff>=0.15.8,<0.16",
+]
