@@ -95,7 +95,8 @@ Application of FReT methods to a series of monthly sunspot numbers (SSN). See
 
 ## Acknowledgements
 
-Original reference implementation: https://github.com/tgchomia/ts
+Original reference implementation: https://github.com/tgchomia/ts  
+The Sunspot Number data source: WDC-SILSO, Royal Observatory of Belgium, Brussels, https://doi.org/10.24414/qnza-ac80
 
 ## Citation
 
